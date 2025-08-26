@@ -1,0 +1,15 @@
+[2025-08-26T10:00:58.906969] Starting ingestion workflow
+[2025-08-26T10:00:58.908963] Using yfinance fallback for API pull
+[2025-08-26T10:00:59.694449] API DataFrame columns: ['timestamp', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 'Dividends', 'Stock Splits']
+[2025-08-26T10:00:59.696647] yfinance fetch & validation OK
+[2025-08-26T10:00:59.708207] Saved API CSV to c:\Users\sarda\Desktop\bootcamp_darshit_sarda\homework\data\raw\api_yfinance_AAPL_20250826-1000.csv
+[2025-08-26T10:01:00.306170] Scrape validation OK
+[2025-08-26T10:01:00.309389] Saved scraped CSV to c:\Users\sarda\Desktop\bootcamp_darshit_sarda\homework\data\raw\scrape_wikipedia_sp500_constituents_20250826-1000.csv
+[2025-08-26T10:01:00.312100] Wrote ingestion documentation to c:\Users\sarda\Desktop\bootcamp_darshit_sarda\homework\notebooks\stage04_ingestion_notes.md
+[2025-08-26T10:01:00.313244] Ingestion workflow completed
+[2025-08-26T10:01:00.314244] Summary of outputs:
+[2025-08-26T10:01:00.314244]  - c:\Users\sarda\Desktop\bootcamp_darshit_sarda\homework\data\raw\api_diag_20250826-1000.txt
+[2025-08-26T10:01:00.314244]  - c:\Users\sarda\Desktop\bootcamp_darshit_sarda\homework\data\raw\api_yfinance_AAPL_20250826-1000.csv
+[2025-08-26T10:01:00.314244]  - c:\Users\sarda\Desktop\bootcamp_darshit_sarda\homework\data\raw\ingestion_log_20250826-1000.txt
+[2025-08-26T10:01:00.315499]  - c:\Users\sarda\Desktop\bootcamp_darshit_sarda\homework\data\raw\scrape_diag_20250826-1000.txt
+[2025-08-26T10:01:00.315499]  - c:\Users\sarda\Desktop\bootcamp_darshit_sarda\homework\data\raw\scrape_wikipedia_sp500_constituents_20250826-1000.csv

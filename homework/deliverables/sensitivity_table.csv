@@ -1,0 +1,3 @@
+Scenario,RMSE
+Baseline,0.13461400264131967
+Inflated Price (+20%),0.13473467447204943

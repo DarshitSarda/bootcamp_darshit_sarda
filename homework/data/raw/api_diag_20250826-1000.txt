@@ -1,0 +1,4 @@
+Source: yfinance
+Ticker: AAPL
+Validation diag:
+  {'columns': ['timestamp', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 'Dividends', 'Stock Splits'], 'date_col': 'timestamp', 'found_required': ['Open', 'High', 'Low', 'Close', 'Volume'], 'shape': (501, 9), 'na_counts': {'timestamp': 0, 'Open': 0, 'High': 0, 'Low': 0, 'Close': 0, 'Adj Close': 0, 'Volume': 0, 'Dividends': 0, 'Stock Splits': 0}}
